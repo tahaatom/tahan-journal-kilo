@@ -1,0 +1,10 @@
+[package]
+name = "aria-contracts"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+description = "قراردادهای عمومی کرنل آریا — انواع، تریت‌ها، اسکیماها و نسخه‌بندی"
+
+[dependencies]

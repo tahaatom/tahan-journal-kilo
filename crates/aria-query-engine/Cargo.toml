@@ -1,0 +1,10 @@
+[package]
+name = "aria-query-engine"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+description = "موتور پرس‌وجوی کرنل آریا — فیلترها، تجمیع‌ها، پیش‌نمایش‌ها و حافظه نهان"
+
+[dependencies]

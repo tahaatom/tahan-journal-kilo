@@ -1,0 +1,10 @@
+[package]
+name = "aria-security-engine"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+description = "موتور امنیت کرنل آریا — احراز هویت، رمزنگاری، مدیریت کلید و حسابرسی"
+
+[dependencies]

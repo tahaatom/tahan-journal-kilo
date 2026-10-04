@@ -1,0 +1,10 @@
+[package]
+name = "aria-storage-engine"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+description = "موتور ذخیره‌سازی کرنل آریا — SQLite رمزنگاری‌شده، مهاجرت‌ها و تراکنش‌ها"
+
+[dependencies]

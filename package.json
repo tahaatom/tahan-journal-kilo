@@ -1,0 +1,13 @@
+{
+  "name": "tahan-journal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ژورنال طهان — کرنل آریا: ژورنال معاملاتی دسکتاپ، آفلاین-فرست، فارسی و راست‌به‌چپ",
+  "scripts": {
+    "dev:backend": "pwsh -NoProfile -ExecutionPolicy Bypass -File scripts/dev-backend.ps1",
+    "dev:frontend": "pwsh -NoProfile -ExecutionPolicy Bypass -File scripts/dev-frontend.ps1",
+    "test:all": "pwsh -NoProfile -ExecutionPolicy Bypass -File scripts/test-all.ps1",
+    "lint:all": "pwsh -NoProfile -ExecutionPolicy Bypass -File scripts/lint-all.ps1",
+    "format:all": "pwsh -NoProfile -ExecutionPolicy Bypass -File scripts/format-all.ps1"
+  }
+}

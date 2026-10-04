@@ -1,0 +1,10 @@
+[package]
+name = "aria-domain-engine"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+description = "موتور دامنه کرنل آریا — مدل معاملاتی، دستورات، رویدادها و محاسبه R"
+
+[dependencies]
