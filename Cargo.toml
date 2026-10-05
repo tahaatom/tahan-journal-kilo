@@ -34,4 +34,5 @@ uuid = { version = "1.0", features = ["v4", "serde"] }
 chrono = { version = "0.4", features = ["serde"] }
 parsidate = { version = "1.7", features = ["serde"] }
 dirs = "7"
-semver = "1.0"
+semver = { version = "1.0", features = ["serde"] }
+zeroize = "1.0"

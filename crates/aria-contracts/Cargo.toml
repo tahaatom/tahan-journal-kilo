@@ -8,3 +8,12 @@ publish.workspace = true
 description = "قراردادهای عمومی کرنل آریا — انواع، تریت‌ها، اسکیماها و نسخه‌بندی"
 
 [dependencies]
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+semver = { workspace = true }
+zeroize = { workspace = true }
+
+[dev-dependencies]
+jsonschema = "0.18"
