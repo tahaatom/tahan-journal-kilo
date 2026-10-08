@@ -5,6 +5,18 @@ edition.workspace = true
 rust-version.workspace = true
 license.workspace = true
 publish.workspace = true
-description = "موتور ذخیره‌سازی کرنل آریا — SQLite رمزنگاری‌شده، مهاجرت‌ها و تراکنش‌ها"
+description = "موتور ذخیره‌سازی کرنل آریا — SQLite رمزنگاری‌شده (SQLCipher)، مهاجرت‌ها و تراکنش‌ها"
 
 [dependencies]
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+blake3 = { workspace = true }
+rusqlite = { workspace = true }
+aria-contracts = { workspace = true }
+aria-foundation-engine = { workspace = true }
+
+[dev-dependencies]
+rusqlite = { workspace = true }

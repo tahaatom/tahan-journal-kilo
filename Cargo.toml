@@ -36,3 +36,8 @@ parsidate = { version = "1.7", features = ["serde"] }
 dirs = "7"
 semver = { version = "1.0", features = ["serde"] }
 zeroize = "1.0"
+blake3 = "1.5"
+rusqlite = { version = "0.37", features = ["bundled-sqlcipher-vendored-openssl"] }
+
+aria-contracts = { path = "crates/aria-contracts" }
+aria-foundation-engine = { path = "crates/aria-foundation-engine" }
